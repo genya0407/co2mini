@@ -30,8 +30,6 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     ffi (1.15.4)
-    mackerel-client (0.12.0)
-      faraday (~> 1.0)
     multipart-post (2.1.1)
     ruby2_keywords (0.0.5)
 
@@ -43,7 +41,6 @@ DEPENDENCIES
   faraday
   ffi
   hid_api!
-  mackerel-client
 
 BUNDLED WITH
    2.3.3
