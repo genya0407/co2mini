@@ -5,7 +5,7 @@ require 'json'
 dev = CO2mini.new
 
 conn = Faraday.new(
-  url: 'https://genya0407:31WHIHvMPFUS@datastore.genya0407.net',
+  url: "https://genya0407:#{ENV.fetch('PASSWORD')}@datastore.genya0407.net",
   headers: {'Content-Type' => 'application/json'}
 )
 

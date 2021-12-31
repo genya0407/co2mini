@@ -9,6 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    dotenv (2.7.6)
     faraday (1.8.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
@@ -38,6 +39,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  dotenv
   faraday
   ffi
   hid_api!
